@@ -1,0 +1,38 @@
+@media screen and (max-width: 1025px){
+    .typewritter-text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 769px){
+    .typewritter-text{
+        letter-spacing: 1px;
+    }
+    #workingTimes{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 426px){
+    h1{
+        font-size: 90px;
+    }
+    .typewritter-text{
+        font-size: 8px;
+    }
+    #map{
+        display: none;
+    }
+}
+@media screen and (max-width: 376px){
+    h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 321px){
+    .typewritter-text{
+        font-size: 7px;
+    }
+    img{
+        width: 250px;
+    }
+
+}
