@@ -1,0 +1,327 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+:root{
+    --pink: #ff0059;
+}
+.cleaner{
+    clear: both;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Legalan;
+    src: url(../fonts/Hurricane/Hurricane-Regular.ttf);
+}
+.navbar-brand img{
+    width: 200px;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:rgb(73, 59, 49);
+    color: white;
+    font-weight: 700;
+}
+#cover{
+    align-items: center;
+    height: 100vh;
+    background-image:url(../img/macarons-gdc3dceece_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}   
+#title{
+    border-radius: 50%;
+    padding: 5%;
+    background-color: rgba(223, 210, 199, 0);
+}
+h1{
+    font-size: 150px;
+    color:var(--pink);
+    font-family: legalan;
+}
+h2{
+    background-color: rgba(223, 210, 199, 0.836);
+    color: rgb(0, 0, 0);
+}
+hr{
+    color:rgb(0, 0, 0);
+}
+.typewritter{
+	font-family:Raleway;
+	display: inline-block
+}
+
+.typewritter-text{
+    color: #000000;
+	display: inline-block;
+	overflow: hidden;
+	letter-spacing: 3px;
+	animation: typing 3s steps(34,end),blink .75s step-end infinite;
+	white-space: nowrap;
+	font-size: 30px;
+	font-weight: 700;
+	border-right: 4px solid rgb(0, 0, 0);
+	box-sizing: border-box;
+}
+
+@keyframes typing{
+	from{
+		width: 0%
+	}
+	to{
+		width: 100%
+	}
+}
+
+@keyframes blink{
+	from,to{
+		border-color: transparent
+	}
+	50%{border-color: rgb(0, 0, 0)}
+}
+.btn1{
+    font-weight: bold;
+    margin: 3px;
+    width: 200px;
+    background-color: #ff00595b;
+    color: rgb(0, 0, 0);
+    border: 2px solid #ff0059;
+    border-radius: 30px;
+
+}
+.btn1:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color:rgb(0, 0, 0) ;
+
+}
+footer{
+    margin-top:240px ;
+    z-index: 5;
+    background-color:#dbd4d7;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+/*LOCATIONS*/
+#location1{
+    background-color: var(--pink);
+}
+/*PROUDCTS*/
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #000000; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+.section-products .single-product:hover .part-1::before {
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+.section-products #product-1 .part-1::before {
+    background: url("../img/products/lemon-cream.jpg") no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+.section-products #product-2 .part-1::before {
+    background: url("../img/products/chocolate-praline.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-3 .part-1::before {
+    background: url("../img/products/rose.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-4 .part-1::before {
+    background: url("../img/products/bubble-1.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-5 .part-1::before {
+    background: url("../img/products/lavender-white-chocolate.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-6 .part-1::before {
+    background: url("../img/products/belgian-chocolate.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-7 .part-1::before {
+    background: url("../img/products/mint-white-chocalate.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-8 .part-1::before {
+    background: url("../img/products/coconut-1.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-9 .part-1::before {
+    background: url("../img/products/passion-fruit-dark-chocolate.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-10 .part-1::before {
+    background: url("../img/products/colombian-coffee.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-11 .part-1::before {
+    background: url("../img/products/basil-white-chocolate.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-12 .part-1::before {
+    background: url("../img/products/raspberry-1.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-13 .part-1::before {
+    background: url("../img/products/strawberry-keylime.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-14 .part-1::before {
+    background: url("../img/products/sicilian-pistachio.jpg") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-15 .part-1::before {
+    background: url("../img/products/Red\ Velvet.png") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-16 .part-1::before {
+    background: url("../img/products/salted-caramel.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: var(--pink);
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+    color: var(--pink);
+}
+
+.section-products .single-product .part-2 .product-title {
+    color:var(--pink);
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
+.product-price{
+    color:#444444;
+}
+.title{
+    padding-left: 0%;
+}
+/*CONTACT*/
+#submitForm{
+    background-color:var(--pink);
+}
+img{
+    width: 300px;
+}
+h4{
+    color:var(--pink);
+}
+
